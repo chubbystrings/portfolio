@@ -16,7 +16,7 @@
         <v-row no-gutters>
           <v-img
             :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-            src="@/assets/laptop.jpg"
+            src="@/assets/artoftravel.jpg"
           >
             <v-theme-provider dark>
               <v-container fill-height>
@@ -26,6 +26,15 @@
                   >
                   <v-img src="@/assets/myphoto.png"></v-img>
                   </v-avatar>
+                  <v-btn
+                  class="adjustBlogBtn"
+                  dark
+                  fab
+                  color="orange"
+                   href="https://my-blog-cms-33634.web.app"
+                >
+                  BLOG
+                </v-btn>
                 <v-row
                   align="center"
                   class="white--text mx-auto"
@@ -428,7 +437,13 @@ export default {
 .adjustPhoto {
   position: absolute;
   top: 0.3rem;
-  left: 0.1rem;
+  left: 0.2rem;
+}
+
+.adjustBlogBtn {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.2rem;
 }
 
 .btnClass {
