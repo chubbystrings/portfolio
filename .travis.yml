@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- node
+cache: npm
+script: npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: dist
+  on:
+    branch: master
+  token:
+    secure: sdOP0dqYGgDIl1tbgZWssXh+kCzvZf+IupMo+eGA7Q1AtbVCwxSxMXActkoSksiJP+nlCfOIjJ4+fp0DTag48VTyDNKud9Bk5i1BqpmFE/sd80zDpLZmNRKknSCULM7GKPe4BjnOhluolEy+6CfW/F1Ax4kbZoqGUzvMsIAGUGl1GzPqpQdVh5JRm3/eBokqGYh+Dk3KlvxZ5S3P+rI3t7rQb+RR5RhL4E5xTH2ECMqeN+/aRrGo2HqR8kKAoTZJ9ymMkyUADGMry9JJztYFFjyo9gezF0P5T7tGL+EBg0XtI+HUW97uynWfPURJf015NB9y5LDiZ45BcWhTG4w94Qz7z1XbzK+EteAvh5yZY4QLgsIVrjUx16JbRaciGVAn47f6mEtriv7xEIFByQHH852d2oC0xhWGl0N61oac8oOshRgtwAZbOP4JQlHeZDp5QHD4S/CU8XKsNwBqvBLYKDnm2Khn7VoDu7/54N4Y8xJUXPVtl/ienBkWevDuW15EbZH6zmCSuA/PGp92fL0oQbbWu/pz615z3ih7zuyk+fh/roypo/F45u9ndML1t+pOZQwH6Vm0Cd/gLO8L6rNPVeSOkxn1N6zySn0h98oMl5bscNd4/c0TxmuG2HOC7gdbsiZ59BQPEluAiflUIqgfCfeTci52WDpoItKhN+Z9Ol8=
