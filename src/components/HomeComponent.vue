@@ -398,7 +398,7 @@ export default {
           title: 'PUNTER MASTERS',
           text: 'Punter masters is a web app that connects bettors together, share betcode and talk about betting',
           tech: 'NODE JS, VUE JS AND FIREBASE',
-          url: 'https://punter-matsers.web.app',
+          url: 'https://punter-masters.web.app/',
         },
 
       ],
