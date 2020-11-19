@@ -401,6 +401,14 @@ export default {
           url: 'https://punter-masters.web.app/',
         },
 
+        {
+          icon: 'mdi-shield-outline',
+          title: 'Jambori',
+          text: 'enjoy yourself while learning, Jambori app is a senior secondary school quiz app with subjects like Mathematics, English, Chemistry etc. Built specifically for students who are preparing for Jamb but can also be played by anyone. Enjoy youself',
+          tech: 'VUE JS AND FIREBASE',
+          url: 'https://jambori-c202b.web.app/',
+        },
+
       ],
       stats: [
         ['HTML 5'],
