@@ -31,7 +31,7 @@
                   dark
                   fab
                   color="orange"
-                   href="https://my-blog-cms-33634.web.app"
+                   href="https://chubbysblog.netlify.app/"
                 >
                   BLOG
                 </v-btn>
@@ -301,7 +301,7 @@
 </template>
 <script>
 
-import ContactForm from './contactMeComponent.vue';
+import ContactForm from './GoogleContact.vue';
 
 export default {
   name: 'App',
