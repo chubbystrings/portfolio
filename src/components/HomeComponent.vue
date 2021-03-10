@@ -315,7 +315,7 @@ export default {
           title: 'WEBCOLORZ',
           text: 'Webcolors is a search engine  app for html colors with over 146 colors available in hex, rgb and name format ',
           tech: 'VUE JS && NODE JS',
-          url: 'https://webcoloz.web.app',
+          url: 'https://webcoloz.netlify.app/',
         },
         {
           icon: 'mdi-update',
@@ -383,7 +383,7 @@ export default {
           title: 'Jambori',
           text: 'enjoy yourself while learning, Jambori app is a senior secondary school quiz app with subjects like Mathematics, English, Chemistry etc. Built specifically for students who are preparing for Jamb but can also be played by anyone. Enjoy youself',
           tech: 'VUE JS AND FIREBASE',
-          url: 'https://jambori-c202b.web.app/',
+          url: 'https://jambori.netlify.app/',
         },
 
       ],
