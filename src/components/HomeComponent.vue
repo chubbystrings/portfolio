@@ -390,7 +390,7 @@ export default {
           title: 'Starwaz Characters Demo',
           text: 'A single page starwaz demo characters',
           tech: 'JAVASCRIPT, HTML AND CSS',
-          url: 'https://star-warz-characters.netlify.app/,
+          url: 'https://star-warz-characters.netlify.app/',
         },
 
       ],
