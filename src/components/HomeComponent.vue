@@ -385,6 +385,13 @@ export default {
           tech: 'VUE JS AND FIREBASE',
           url: 'https://jambori.netlify.app/',
         },
+        {
+          icon: 'mdi-shield-outline',
+          title: 'Starwaz Characters Demo',
+          text: 'A single page starwaz demo characters',
+          tech: 'JAVASCRIPT, HTML AND CSS',
+          url: 'https://star-warz-characters.netlify.app/
+        },
 
       ],
       stats: [
