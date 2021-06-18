@@ -392,18 +392,28 @@ export default {
           tech: 'JAVASCRIPT, HTML AND CSS',
           url: 'https://star-warz-characters.netlify.app/',
         },
+         {
+          icon: 'mdi-shield-outline',
+          title: 'Job Finder',
+          text: 'A Job search portal',
+          tech: 'MONGODB, EXPRESS, REACT, NODE',
+          url: 'https://job-finder-2.netlify.app/',
+        },
 
       ],
       stats: [
-        ['HTML 5'],
-        ['CSS'],
-        ['JAVASCRIPT'],
-        ['PHP'],
         ['NODE JS'],
+        ['JAVASCRIPT'],
+        ['TYPESCRIPT'],
+        ['GRAPHQL'],
+        ['PHP'],
         ['VUE JS'],
-        ['LARAVEL'],
+        ['REACT']
+        ['HTML 5'],
+        ['CSS 3'],
         ['GIT'],
         ['TRAVIS CI'],
+        ['CIRCLE CI']
         ['SWAGGER'],
         ['POSTGRES'],
         ['MONGO DB'],
