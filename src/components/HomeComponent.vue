@@ -387,7 +387,7 @@ export default {
         },
         {
           icon: 'mdi-shield-outline',
-          title: 'Starwaz Characters Demo',
+          title: 'Starwaz Demo',
           text: 'A single page starwaz demo characters',
           tech: 'JAVASCRIPT, HTML AND CSS',
           url: 'https://star-warz-characters.netlify.app/',
